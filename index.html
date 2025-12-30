@@ -138,21 +138,36 @@
     }
 
     @media (max-width: 768px) {
+      main {
+        padding: 40px 20px;
+        justify-content: flex-start;
+      }
+
       header {
         padding: 15px 20px;
       }
 
       svg {
-        width: 100%;
+        width: 80%;
+        height: 80%;
       }
 
       h1,
       h2 {
-        font-size: 22px;
+        font-size: 20px;
+      }
+
+      .btn-refresh {
+        padding: 12px;
       }
 
       .message-group {
-        font-size: 14px;
+        font-size: 16px;
+        padding: 0 16px;
+      }
+
+      .message-group span {
+        display: block;
       }
 
       .illustration {
@@ -350,7 +365,7 @@
     <div class="message-group">
       <p class="message-en">
         VinaCapital's website is temporarily unavailable at the moment.<br />
-        Please refresh the page or try again in a few minutes.
+        Please refresh the page or try again <span>in a few minutes.</span>
       </p>
       <p class="message-vi">
         Website của VinaCapital hiện chưa thể hoàn tất kết nối trong giây
